@@ -1,0 +1,64 @@
+[
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "*Active Problem IDs*"
+		}
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "*#public-relations*\n<fakelink.toUrl.com|PR Strategy 2019> posts new tasks, comments, and project updates to <fakelink.toChannel.com|#public-relations>"
+		},
+		"accessory": {
+			"type": "button",
+			"text": {
+				"type": "plain_text",
+				"text": "Edit",
+				"emoji": true
+			},
+			"value": "public-relations"
+		}
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "*#team-updates*\n<fakelink.toUrl.com|Q4 Team Projects> posts project updates to <fakelink.toChannel.com|#team-updates>"
+		},
+		"accessory": {
+			"type": "button",
+			"text": {
+				"type": "plain_text",
+				"text": "Edit",
+				"emoji": true
+			},
+			"value": "public-relations"
+		}
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "actions",
+		"elements": [
+			{
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "New Configuration",
+					"emoji": true
+				},
+				"value": "new_configuration"
+			}
+		]
+	}
+]
